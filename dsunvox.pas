@@ -604,11 +604,11 @@ var
       //  Return value: pointer to the null-terminated string with the latest log messages.
       //
 
-procedure svUnpackModuleXY(in_xy: UInt32;
+procedure svUnpackModuleXY(in_xy: PtrUInt;
                            out out_x, out_y: TSunvoxInt); inline;
       // SV_GET_MODULE_XY in the original API
 
-procedure svUnpackModuleFinetune(in_finetune: UInt32;
+procedure svUnpackModuleFinetune(in_finetune: PtrUInt;
                                  out out_finetune: TSunvoxInt;
                                  out out_relative_note: TSunvoxInt); inline;
       // SV_GET_MODULE_FINETUNE in the original API
